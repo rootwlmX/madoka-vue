@@ -402,7 +402,7 @@ const Typeit = (emId) => {
             prevChar：前一个字符。
             speech：所有的speech。
          ***/
-  var world = 'Aimee'
+  var world = 'Madokami'
 
   theater.describe('Luke', 0.9, emId)
   // conosle.log()
@@ -426,7 +426,7 @@ const Typeit = (emId) => {
   theater
     .write('Luke:Hello!', 1000)
     //                .write("Vader:I am your father.", toggleClass)
-    .write('Luke:Hi,' + world, 500)
+    .write('Luke:' + world, 500)
     .write({ name: 'call', args: [kill, true] })
     .write(function () {
       theater.play(true)

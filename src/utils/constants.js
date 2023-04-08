@@ -94,16 +94,16 @@ const OwOlist = [
 const userTag = ['天然呆', '小萌新', '学霸', '萌萌哒', '技术宅', '忠实粉']
 const projectList = [
   {
-    nav_url: 'http://food.mangoya.cn/',
-    nav_name: '美食美荟'
+    nav_url: '',
+    nav_name: 'test'
   },
   {
-    nav_url: './static/img/meishi.jpg',
-    nav_name: '美食美荟小程序'
+    nav_url: '',
+    nav_name: 'test'
   },
   {
-    nav_url: 'http://aimee.mangoya.cn/',
-    nav_name: 'resume'
+    nav_url: '',
+    nav_name: 'test'
   }
 ]
 const loginType = {

@@ -17,15 +17,15 @@
     <el-row :gutter="30">
       <el-col :span="12" class="donate-item">
         <div class="donate-tip">
-          <img src="@/assets/img/aimee/reward-wechat.jpg" />
-          <span>微信扫一扫，向我赞赏</span>
+          <!-- <img src="@/assets/img/aimee/reward-wechat.jpg" /> -->
+          <!-- <span>微信扫一扫，向我赞赏</span> --->
         </div>
       </el-col>
       <el-col :span="12" class="donate-item">
         <div class="donate-tip">
-          <img src="@/assets/img/aimee/reward-zfb.jpg" />
+          <!-- <img src="@/assets/img/aimee/reward-zfb.jpg" /> -->
 
-          <span>支付宝扫一扫，向我赞赏</span>
+          <!-- <span>支付宝扫一扫，向我赞赏</span> -->
         </div>
       </el-col>
     </el-row>
@@ -50,9 +50,9 @@ export default {
       tableData: [
         {
           // 赞赏数据
-          pay_time: '2020-05-02',
-          name: '若水',
-          money: '1.5'
+          // pay_time: '2020-05-02',
+          // name: '若水',
+          // money: '1.5'
         }
       ]
     }

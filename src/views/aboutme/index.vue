@@ -5,17 +5,16 @@
       <div class="aboutme-title">关于我</div>
       <section class="aboutme-content">
         <p class="">
-          <img src="@/assets/img/maoto.png" alt="" class="aboutmeImg" />
+          <!-- <img src="@/assets/img/maoto.png" alt="" class="aboutmeImg" /> -->
         </p>
         <p class="aboutme-description">
-          欢迎来到Mango
-          Ya！我是Aimee，是一个可爱的girl，前端程序媛，喜欢各种有趣的事物，爱好各种动手的小玩意儿
+          家人们，谁懂啊
         </p>
-        <p class="aboutme-description">90后小姐姐😍，前端小萌新，</p>
+        <p class="aboutme-description">大无语事件发生啦</p>
         <p class="aboutme-description">
-          爱美食，爱动手做美食，想长胖的尽管来。
+          九敏集美们
         </p>
-        <p class="aboutme-description">博客2021年9月16日更新2.0</p>
+        <p class="aboutme-description">大无语事件</p>
       </section>
     </div>
     <Message id="aboutme" />

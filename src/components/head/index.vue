@@ -47,7 +47,7 @@
           <img src="@/assets/img/tou.png" alt />
         </span>
         <div class="h-description">
-          <span @click="goHandle({ name: 'Aboutme' })">Write the Code. Change the World.</span>
+          <span @click="goHandle({ name: 'Aboutme' })">星の生まれる刻.</span>
         </div>
       </div>
     </div>

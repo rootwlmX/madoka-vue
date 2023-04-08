@@ -56,7 +56,7 @@ export default {
 @tcolorm: #64609e; //分类的选中的颜色
 @tcolord: #48456d; //按钮hover 的颜色
 
-// /***** 粉红色主题****/
+/***** 粉红色主题****/
 // @tcolors:#97dffd;//按钮和标签颜色
 // @tcolorm:#64609E;//分类的选中的颜色
 // @tcolord:#48456D;//按钮hover 的颜色

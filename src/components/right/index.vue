@@ -4,7 +4,7 @@
       <div class="r1-head">
         <img src="@/assets/img/headtou02.jpg" alt />
         <h1>
-          <span>女王</span>Aimee
+          <span></span>Madokami
         </h1>
       </div>
       <div class="r1-body">
