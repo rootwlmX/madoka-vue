@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { Message as Message } from 'element-ui'
-const baseURL = process.env.NODE_ENV === 'development' ? 'v1' : '/v1'
+const baseURL = process.env.NODE_ENV === 'development' ? '/v1' : '/v1'
 
 // create an axios instance
 const service = axios.create({
@@ -27,7 +27,7 @@ service.interceptors.response.use(
     const res = response.data
 
     // if the custom code is not 20000, it is judged as an error.
-    if (res.code !== 0) {
+    if (res.code !== 200) {
       Message({
         message: res.msg || 'Error',
         type: 'error',

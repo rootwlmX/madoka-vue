@@ -1,6 +1,6 @@
 'use strict'
 const path = require('path')
-// const port = process.env.port || 8087 // dev port
+const port = process.env.port || 8087 // dev port
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 const LodashModuleReplacementPlugin = require('lodash-webpack-plugin')
 const webpack = require('webpack')
@@ -84,34 +84,34 @@ module.exports = {
     // })
     // .end()
   },
-  // devServer: {
-  //   proxy: {
-  //     '/v1': {
-  //       target: 'http://aimeeserver.mangoya.cn:8899/v1',
-  //       ws: true,
-  //       changeOrigin: true,
-  //       pathRewrite: {
-  //         '^/v1': '' // 请求的时候使用这个api就可以
-  //       }
-  //     },
-  //     '/aimeeserver': {
-  //       target: 'https://aimeeserver.mangoya.cn/v1',
-  //       ws: true,
-  //       changeOrigin: true,
-  //       pathRewrite: {
-  //         '^/aimeeserver': '' // 请求的时候使用这个api就可以
-  //       }
-  //     }
-  //   },
-  //   host: 'aimeeblog.mangoya.cn',
-  //   port: port,
-  //   open: true,
-  //   overlay: {
-  //     warnings: false,
-  //     errors: true
-  //   },
-  //   disableHostCheck: true
-  // },
+  devServer: {
+    proxy: {
+      '/v1': {
+        target: 'http://127.0.0.1:8800/v1',
+        ws: true,
+        changeOrigin: true,
+        pathRewrite: {
+          '^/v1': '' // 请求的时候使用这个api就可以
+        }
+      },
+      '/aimeeserver': {
+        target: 'https://aimeeserver.mangoya.cn/v1',
+        ws: true,
+        changeOrigin: true,
+        pathRewrite: {
+          '^/aimeeserver': '' // 请求的时候使用这个api就可以
+        }
+      }
+    },
+    host: 'localhost',
+    port: port,
+    open: true,
+    overlay: {
+      warnings: false,
+      errors: true
+    },
+    disableHostCheck: true
+  },
   configureWebpack: {
     resolve: {
       extensions: ['.js', '.vue', '.json'],

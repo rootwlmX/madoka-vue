@@ -3,20 +3,20 @@
   <div>
     <span class="s-round-date">
       <span class="month">{{
-        showInitDate(item.createDate, 'month') + '月'
+        showInitDate(item.createTime, 'month') + '月'
       }}</span>
-      <span class="day">{{ showInitDate(item.createDate, 'date') }}</span>
+      <span class="day">{{ showInitDate(item.createTime, 'date') }}</span>
     </span>
     <header class="article-head">
       <div class="article-head-title">
-        <a href="javascript:void();" @click="goDetail(item._id)">
+        <a href="javascript:void();" @click="goDetail(item.id)">
           {{ item.title }}
         </a>
       </div>
       <div class="article-head-count">
         <i class="fa fa-fw fa-user" />发表于
         <i class="fa fa-fw fa-clock-o" /><span>{{
-          showInitDate(item.createDate)
+          showInitDate(item.createTime)
         }}</span>
         • <i class="fa fa-fw fa-eye" />{{ item.browseCount }} 次围观 •
         <i class="fa fa-fw fa-comments" />活捉 {{ item.commentCount }} 条 •

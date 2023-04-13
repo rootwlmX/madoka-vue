@@ -3,7 +3,7 @@
   <el-row class="sharelistBox">
     <el-col v-for="(item, index) in list" :key="'article' + index" :span="24" class="s-item tcommonBox">
       <articleHead :item="item" />
-      <div class="article-content-list" @click="goDetail(item._id)">
+      <div class="article-content-list" @click="goDetail(item.id)">
         <Content :content="item.content" />
         <!-- <div class="article-description" >
           {{ item.description }}
@@ -16,11 +16,11 @@
       </div>
       <div class="viewdetail">
         <!-- <a class="tcolors-bg"
-           @click="goDetail(item._id)">
+           @click="goDetail(item.id)">
           阅读全文
           <i class="el-icon-d-arrow-right" />
         </a>-->
-        <AButton icon="el-icon-d-arrow-right" @click="goDetail(item._id)">阅读全文</AButton>
+        <AButton icon="el-icon-d-arrow-right" @click="goDetail(item.id)">阅读全文</AButton>
       </div>
     </el-col>
     <el-col v-if="!listLoading" class="tcommonBox">
