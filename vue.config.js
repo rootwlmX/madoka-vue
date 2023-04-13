@@ -11,7 +11,7 @@ if (process.env.ENV_BUILD === 'analyzer') {
   analyzer.push(new BundleAnalyzerPlugin())
 }
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
   lintOnSave: process.env.NODE_ENV === 'development',
   productionSourceMap: false,
   chainWebpack: (config) => {
