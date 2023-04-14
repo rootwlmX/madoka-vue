@@ -144,7 +144,7 @@ export default {
     ...mapActions('common', ['goDetail']),
     async getTopComment() {
       const res = await commentAPI.getTopComment()
-      if (res.code === 0) {
+      if (res.code === 200) {
         const { browseList, commentList, loveCount } = res.data
         this.artCommentList = commentList
         this.browseList = browseList
