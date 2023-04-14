@@ -77,7 +77,7 @@
                   v-if="haslogin"
                   class="tmsg-replay"
                   @click="
-                    respondMsg({ leaveIndex: index, pIndex: -1, pid: item._id })
+                    respondMsg({ leaveIndex: index, pIndex: -1, pid: item.id })
                   "
                 >
                   回复
@@ -119,7 +119,7 @@
                         respondMsg({
                           leaveIndex: index,
                           pIndex: cindex,
-                          pid: citem._id
+                          pid: citem.id
                         })
                       "
                     >

@@ -152,10 +152,10 @@ export default {
       if (this.haslogin) {
         const likeRes = await likeAPI.getInfo({ id })
         const collectRes = await collectAPI.getInfo({ id })
-        if (likeRes.code === 0 && likeRes.data._id) {
+        if (likeRes.code === 0 && likeRes.data.id) {
           this.likeArt = true
         }
-        if (collectRes.code === 0 && collectRes.data._id) {
+        if (collectRes.code === 0 && collectRes.data.id) {
           this.collectArt = true
         }
       }
