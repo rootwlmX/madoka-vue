@@ -5,7 +5,10 @@
       <p>
         博客已萌萌哒运行
         <span>{{ longTime }}</span>
-        <span class="timeJump">(●'◡'●)ﾉ♥</span>
+      </p>
+      <p>
+        
+        <span class="timeJump">魔理沙は大変なものを盗んでいきました(ᗜˬᗜ)</span>
       </p>
     </div>
   </div>
