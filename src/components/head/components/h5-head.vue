@@ -81,7 +81,7 @@ export default {
   props: ['activeIndex', 'classList', 'projectList', 'haslogin'],
   data() {
     return {
-      pMenu: false
+      pMenu: true
     }
   },
   created() {},
