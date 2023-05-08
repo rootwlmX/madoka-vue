@@ -74,7 +74,6 @@
 </template>
 
 <script>
-import {L2Dwidget} from 'live2d-widget'
 export default {
   name: 'PCHead',
   components: {},
@@ -101,16 +100,7 @@ export default {
     goHandle(value) {
       this.$emit('goHandle', value)
     }
-  },
-  created() {
-        setTimeout(function () {
-            L2Dwidget.init({
-                model: {
-                  jsonPath: 'https://cdn.jsdelivr.net/gh/wangsrGit119/wangsr-image-bucket/L2Dwidget/live2d-widget-model-miku/assets/miku.model.json',
-                }
-            });
-        },1000);
-    }
+  }
 }
 </script>
 
