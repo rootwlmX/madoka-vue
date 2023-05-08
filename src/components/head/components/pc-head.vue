@@ -106,7 +106,7 @@ export default {
         setTimeout(function () {
             L2Dwidget.init({
                 model: {
-                  jsonPath: 'https://cdn.jsdelivr.net/gh/wangsrGit119/wangsr-image-bucket/L2Dwidget/live2d-widget-model-chitose/assets/chitose.model.json',
+                  jsonPath: 'https://cdn.jsdelivr.net/gh/wangsrGit119/wangsr-image-bucket/L2Dwidget/live2d-widget-model-miku/assets/miku.model.json',
                 }
             });
         },1000);
