@@ -7,16 +7,6 @@
         <span>{{ longTime }}</span>
         <span class="timeJump">(●'◡'●)ﾉ♥</span>
       </p>
-      <p>
-        博客已萌萌哒运行
-        <span>{{ longTime }}</span>
-        <span class="timeJump">(●'◡'●)ﾉ♥</span>
-      </p>
-      <p>
-        博客已萌萌哒运行
-        <span>{{ longTime }}</span>
-        <span class="timeJump">(●'◡'●)ﾉ♥</span>
-      </p>
     </div>
   </div>
 </template>

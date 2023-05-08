@@ -124,12 +124,12 @@ export default {
       initLikeNum: 0, // 初始化喜欢数量
       catchMeObj: {
         // 抓住我 个人信息{
-        git: 'https://github.com/Aimee1608',
-        qq: require('./../../assets/img/aimee/QQ.jpg'),
-        sina: 'https://weibo.com/u/2242812941',
-        wechat: require('./../../assets/img/aimee/erwm.jpg'),
-        csdn: 'http://blog.csdn.net/Aimee1608',
-        job: '//aimee.mangoya.cn'
+        git: '/',
+        qq: require('/'),
+        sina: '/',
+        wechat: require('/'),
+        csdn: '/',
+        job: '/'
       }
     }
   },
