@@ -1,6 +1,6 @@
 const GITHUB_OAUTH = {
-  url: 'https://github.com/login/oauth/authorize?client_id=7a79cb87ff58020bc1ff&state=blog',
-  clientid: '7a79cb87ff58020bc1ff'
+  url: 'https://github.com/login/oauth/authorize?client_id=d36422ab56e8ee83ebd0&state=blog',
+  clientid: 'd36422ab56e8ee83ebd0'
 }
 const WEIBO_OAUTH = {
   url: 'https://api.weibo.com/oauth2/authorize?client_id=1075586328&redirect_uri=https://mangoya.cn/v1/user/login&response_type=code&state=weibo_blog',
