@@ -21,28 +21,28 @@
                 <i class="fa fa-fw fa-qq" />
               </a>
             </el-tooltip>
-            <el-tooltip class="item" effect="dark" content="微博" placement="top">
+            <!-- <el-tooltip class="item" effect="dark" content="微博" placement="top">
               <a :href="catchMeObj.sina" target="_blank">
                 <i class="fa fa-fw fa-weibo" />
               </a>
-            </el-tooltip>
+            </el-tooltip> -->
           </div>
           <div class>
-            <el-tooltip class="item" effect="dark" content="微信" placement="top">
+            <!-- <el-tooltip class="item" effect="dark" content="微信" placement="top">
               <a :href="catchMeObj.wechat" target="_blank">
                 <i class="fa fa-fw fa-wechat" />
               </a>
-            </el-tooltip>
-            <el-tooltip class="item" effect="dark" content="CSDN" placement="top">
+            </el-tooltip> -->
+            <!-- <el-tooltip class="item" effect="dark" content="CSDN" placement="top">
               <a :href="catchMeObj.csdn" target="_blank">
                 <i class>C</i>
               </a>
-            </el-tooltip>
-            <el-tooltip class="item" effect="dark" content="简历" placement="top">
+            </el-tooltip> -->
+            <!-- <el-tooltip class="item" effect="dark" content="简历" placement="top">
               <a :href="catchMeObj.job" target="_blank">
                 <i class="fa fa-fw fa-file-word-o" />
               </a>
-            </el-tooltip>
+            </el-tooltip> -->
             <el-tooltip class="item" effect="dark" content="更多" placement="top">
               <a href="#/Aboutme">
                 <i class="el-icon-more" />
@@ -124,8 +124,8 @@ export default {
       initLikeNum: 0, // 初始化喜欢数量
       catchMeObj: {
         // 抓住我 个人信息{
-        git: '/',
-        qq: require('/'),
+        git: 'https://github.com/rootwlmX',
+        qq: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=5SLfr10z4vIsXdf2txLYbe2Kc6rFHWYd&authKey=Wq3ZnDYQQD0ACs4xLpaboAaSHiLvDW2kNlNryyPmsJ2epVYiWfOByvomrHbdbR%2Ba&noverify=0&group_code=791782725',
         sina: '/',
         wechat: require('/'),
         csdn: '/',
